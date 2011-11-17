@@ -8,7 +8,7 @@ public interface ITicTacToePlay {
 	public void randomStart();
 	public void registerPlayers();
 	public void resetBoard();
-	public SelectionResult selectPosition(int pos);
+	public SelectionResult selectPosition(int i, int j);
 	public void setNextTurnPlayer();
 	public void setNumberOfPlays(int plays);
 	public void setPlayerOne(String name);
